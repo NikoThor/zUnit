@@ -14,7 +14,8 @@ public class TestClass extends TestSuite {
         assertEquals(5.0,result);
     }
     private void testDoubleFailled(){
-        assertEquals(2.0,3.0);
+
+    assertEquals(4.0,3.0);
     }
 
     public void testIntPassed(){

@@ -14,6 +14,7 @@ public abstract class TestSuite {
         System.out.println("Tests failed: " + failed);
     }
 
+
     protected abstract void testList();
 
 
